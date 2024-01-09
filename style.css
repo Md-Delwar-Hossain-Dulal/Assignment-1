@@ -24,14 +24,12 @@
 }
 
 div p {
-    padding-bottom: 5px;
+    padding-bottom: 1px;
+    text-align: center;
 }
 
-/* 65% OFF div here */
+/* ................start............65% OFF div here....................... */
 .main-div {
-    /* background-image: url("resources/New\ Year\ Photo.png");
-    width: 802.9px;
-    height: 800px; */
     margin: auto;
     background-repeat: no-repeat;
     text-align: center;
@@ -63,4 +61,265 @@ div p {
 
 .img-OFF {
     padding-top: 48px;
+}
+
+/* ...........................start........Welcome party..................... */
+.party {
+    background: linear-gradient(90deg, #06020fee 0%, rgba(12, 2, 2, 0) 100%), url('resources/Vectorrr.png');
+    height: 600px;
+    width: 1320px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    gap: 200px;
+    margin-bottom: 50px;
+}
+
+.party-div {
+    color: white;
+    font-family: 'Merriweather', serif;
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.welcome {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 7.04px;
+    font-weight: 900;
+}
+
+.party-div p {
+    padding: 20px 0;
+}
+
+.party-div a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #000000;
+}
+
+/* ...............................start.....Hotel....................... */
+.Hotel {
+    height: 380px;
+    width: 1020px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, rgba(243, 63, 63, 0.164) 0%, rgba(247, 237, 237, 0.199) 100%);
+
+}
+
+.Hotel h2 {
+
+    color: black;
+    padding: 8px;
+
+
+}
+
+span {
+    color: #FF0000;
+}
+
+.Hotel a {
+
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF0000;
+}
+
+/* ......................start.................Best offer  .......................*/
+.offer {
+    height: 400px;
+    width: 1020px;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.offer-child h3 {
+    padding-top: 30px;
+}
+
+.offer-child {
+    padding: 20px;
+    height: 300px;
+    margin: auto;
+    width: 90%;
+}
+
+.offer-child img {
+    height: 50%;
+    width: 50%;
+    padding-top: 20px;
+
+
+}
+
+.offer-child h2 {
+    padding: 20px 0;
+}
+
+.offer-child-2 {
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    border: 10px solid red;
+
+    height: 80%;
+
+    width: 100%;
+}
+
+.offer-child-2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#Year-2024 {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+#Year-2024-id {
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* .................start...................Sell 50%................................. */
+.sell {
+    margin: auto;
+    height: 700px;
+    width: 1320px;
+}
+
+.sell-div {
+    padding: 20px 0px;
+    margin: auto;
+
+    text-align: center;
+    height: 100px;
+    width: 800px;
+}
+
+.sell-div h2 {
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.imgdiv {
+    margin: auto;
+    height: 500px;
+    width: 1000px;
+    margin-top: 35px;
+    background-image: url('resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.imge0 {
+    position: absolute;
+    padding-left: 420px;
+}
+
+.imge1 {
+    padding-top: 260px;
+    padding-left: 100px;
+    position: absolute;
+    filter: drop-shadow(0px 10px 10px black);
+    width: 300px;
+    height: 250px;
+}
+
+.imge2 {
+    padding-top: 400px;
+    width: 100%;
+    height: 25%;
+}
+
+/* ............................................start....THE BEST GIFTS......................................... */
+
+.div {
+    margin: auto;
+    margin-top: 50px;
+    height: 900px;
+    width: 1320px;
+}
+
+.divtext {
+    height: 18%;
+    width: 720px;
+    padding-left: 100px;
+}
+
+.divtext h3 {
+    padding-top: 20px;
+    color: #F00;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-bottom: 13px;
+}
+
+.divtext h2 {
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    font-size: 37px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.divtext p {
+    Color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 48px;
+}
+
+.divimages {
+    margin: auto;
+    margin-top: 2%;
+    width: 95%;
+    height: 78%;
+    text-align: center;
+}
+
+.imgs {
+
+    margin: auto;
+    margin: 5px;
+    height: 320px;
+    width: 350px;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+.imgs:hover {
+    filter: drop-shadow(0px 5px 5px rgb(0, 0, 0));
 }
